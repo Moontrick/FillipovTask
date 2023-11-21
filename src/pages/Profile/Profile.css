@@ -1,0 +1,118 @@
+.Profile_left{
+  font-family: 'Unbounded';
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #DAF7DC;
+  height: 10vh;
+  width: 100%;
+  justify-content: space-between;
+}
+.profile_let_number{
+  margin-left: 2vh;
+  
+}
+.profile_let_number_a{
+  color: #336699;
+}
+.Profile_user_seceretkey{
+  margin-right:2vh;
+}
+.secret_key_block{
+  color: #336699;
+}
+.Profile_user_seceretkey button{
+  font-size: 1.5em;
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: white;
+  font-family: 'Unbounded';
+  /* background: linear-gradient(45deg, rgba(0, 247, 255, 1) 0%, rgba(0, 131, 255, 1) 100%) center 0 round; */
+  background: #336699;
+}
+.ShowButton{
+  font-size: 70%;
+  cursor: pointer;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: white;
+  font-family: 'Unbounded';
+  /* background: linear-gradient(45deg, rgba(0, 247, 255, 1) 0%, rgba(0, 131, 255, 1) 100%) center 0 round; */
+  background: #336699;
+}
+.DeleteButton{
+  font-size: 70%;
+  cursor: pointer;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: white;
+  font-family: 'Unbounded';
+  /* background: linear-gradient(45deg, rgba(0, 247, 255, 1) 0%, rgba(0, 131, 255, 1) 100%) center 0 round; */
+  background: red;
+}
+.Profile_center{
+  margin-top: 2%  ;
+ display: flex;
+ font-family: 'Unbounded';
+ flex-direction: column;
+ justify-content: space-around;
+ color:white;
+}
+.Profile_center_header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Profile_center_header a{
+  margin-left: 1%;
+  font-size: 4vh;
+}
+.add_new_reviews{
+  margin-left: 5%;
+  cursor: pointer;
+  display: flex;
+  width: 17%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px;
+  border-color: black ;
+  background-color: #2e7cad;
+}
+.add_new_reviews h1{
+  font-size: 3vh;
+}
+.add_new_reviews:hover{
+  background-color: #DAF7DC;
+  color: black
+}
+.Profile_reviews{
+  margin-top: 2%;
+  color: black;
+  font-family: 'Unbounded';
+  background-color: #DAF7DC;
+}
+.Profile_header_line{
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+.Profile_review_header{
+  font-size: 3vh;
+}
+.Profile_info_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}

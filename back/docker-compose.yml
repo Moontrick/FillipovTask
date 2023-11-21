@@ -1,0 +1,30 @@
+version: "3.5"
+
+services:
+  project:
+    build: project
+    expose:
+      - 80
+    ports:
+      - "80:80"
+    networks:
+      - backend
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    networks:
+      - backend
+    environment:
+      - "discovery.type=single-node"
+      - "xpack.security.enabled=false"
+      - "cluster.routing.allocation.disk.threshold_enabled=false"
+    volumes:
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/elasticsearch.yml
+      - ./elasticsearch/config/synonyms.txt:/usr/share/elasticsearch/data/synonyms.txt
+
+networks:
+  backend:
+    name: backend

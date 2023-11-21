@@ -1,0 +1,44 @@
+/* body{
+  background: white;
+} */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2vh;
+  /* width: 90%; */
+  margin: 3vh auto;
+  /* background: white; */
+ 
+}
+.header_icon{
+  width: 150px;
+  height: 40px;
+  background: url(../src/assets/images/Plantovision_logo.png) 20px 0 no-repeat;
+  background-size: contain;
+}
+.header_line{
+  background-color: white;
+  height: 1px;
+  width: 100%;
+
+}
+.logIn_block{
+  text-decoration: none;
+  width: 30%;
+  color: white;
+  font-size: large;
+
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logIn_block h1{
+  text-decoration: none;
+  color: white;
+  
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  /* cursor: pointer; */
+}
