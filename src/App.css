@@ -11,12 +11,7 @@ header{
   /* background: white; */
  
 }
-.header_icon{
-  width: 150px;
-  height: 40px;
-  background: url(../src/assets/images/Plantovision_logo.png) 20px 0 no-repeat;
-  background-size: contain;
-}
+
 .header_line{
   background-color: white;
   height: 1px;
