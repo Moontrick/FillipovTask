@@ -189,7 +189,7 @@ import {DATA} from './fuzziness_custom'
 				body1 = JSON.stringify({
 					query: {
 						multi_match: {
-							query: NotcombineSearch,
+							query: search,
 							fields: ["Title", "Time", "Paragraph1", "Paragraph2", "Player_img", "Paragraph3", "Author"],
 							fuzziness: "AUTO:0,2",
 						}
