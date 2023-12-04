@@ -41,7 +41,7 @@ function Home() {
         Найти
       </button>
       {user &&
-      user.hits.hits.slice(0, displayCount).map((res, index) => (
+      user.slice(0, displayCount).map((res, index) => (
         <div className="search_center" style={{ marginTop: '10px' }} key={index}>
           <p className="search_title">{res._source.Title}</p>
           <NavLink
@@ -53,7 +53,7 @@ function Home() {
           </NavLink>
         </div>
       ))}
-{user && user.hits.total.value > displayCount && (
+{user && user > displayCount && (
   <button onClick={handleShowMore} className='showmore'>Показать еще</button>
 )}
     </div>
