@@ -168,6 +168,7 @@ import {DATA} from './fuzziness_custom'
 					flag = true;
 					combineSearch = combineSearch + searchWords[i] + " "
 				}else{
+					//это я для тестов делал, решил не убирать, мало ли пригодиться
 					NotcombineSearch = NotcombineSearch + searchWords[i] + " "
 				}
 			})
