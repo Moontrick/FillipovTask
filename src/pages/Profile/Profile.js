@@ -13,7 +13,7 @@ function Profile() {
   return (
   
     <div className='ProfilePage'>
-    {user && user.hits.hits.filter(res => res._id === id).map((res, index) => (
+    {user && user.filter(res => res._id === id).map((res, index) => (
           
           <div className='search_center' key={index}>
             <p className='search_title'>{res._source.Title}</p>
